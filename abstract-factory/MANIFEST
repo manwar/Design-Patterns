@@ -1,0 +1,15 @@
+README
+MANIFEST
+Makefile.PL
+lib/FactoryProducer.pm
+lib/AbstractFactory.pm
+lib/AbstractFactory/RoundedShapeFactory.pm
+lib/AbstractFactory/ShapeFactory.pm
+lib/Shape.pm
+lib/Shape/Rectangle.pm
+lib/Shape/RoundedRectangle.pm
+lib/Shape/Square.pm
+lib/Shape/RoundedSquare.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t
