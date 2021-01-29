@@ -1,0 +1,11 @@
+README
+MANIFEST
+Makefile.PL
+lib/ShapeFactory.pm
+lib/Shape.pm
+lib/Shape/Circle.pm
+lib/Shape/Square.pm
+lib/Shape/Rectangle.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t
