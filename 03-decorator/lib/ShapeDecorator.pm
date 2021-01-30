@@ -11,10 +11,6 @@ ShapeDecorator - Demo Decorator design pattern.
 use Moo;
 with 'Shape';
 
-#use Shape::Circle;
-#use Shape::Square;
-#use Shape::Rectangle;
-
 has 'shape'  => (
     is       => 'ro',
     isa      => sub { die 'Invalid shape.' unless $_[0]->does('Shape') },
