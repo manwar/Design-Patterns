@@ -1,0 +1,20 @@
+Facade
+
+Facade pattern  hides  the complexities of the system and provides an
+interface to the client using which the client can access the system.
+
+IMPLEMENTATION
+
+Interface:
+
+Shape
+
+Concrete class implementing interface Shape:
+
+Shape::Circle
+Shape::Square
+Shape::Rectangle
+
+In the end we create Facade class
+
+ShapeMaker
