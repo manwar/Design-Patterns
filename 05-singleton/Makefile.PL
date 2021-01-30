@@ -5,10 +5,10 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME               => 'ShapeMaker',
+    NAME               => 'SingleObject',
     AUTHOR             => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>},
-    VERSION_FROM       => 'lib/ShapeMaker.pm',
-    ABSTRACT_FROM      => 'lib/ShapeMaker.pm',
+    VERSION_FROM       => 'lib/SingleObject.pm',
+    ABSTRACT_FROM      => 'lib/SingleObject.pm',
     LICENSE            => 'artistic_2',
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
@@ -19,7 +19,8 @@ WriteMakefile(
     },
     PREREQ_PM => {
         'Moo' => '2.000000',
+        'MooX::Singleton' => '1.20',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'ShapeMaker-*' },
+    clean => { FILES => 'SingleObject-*' },
 );

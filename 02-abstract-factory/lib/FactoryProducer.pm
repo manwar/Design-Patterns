@@ -2,7 +2,7 @@ package FactoryProducer;
 
 $FactoryProducer::VERSION = '0.01';
 
-=head1
+=head1 NAME
 
 FactoryProducer - Demo Abstract Factory design pattern.
 

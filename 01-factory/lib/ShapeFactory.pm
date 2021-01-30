@@ -2,7 +2,7 @@ package ShapeFactory;
 
 $ShapeFactory::VERSION = '0.01';
 
-=head1
+=head1 NAME
 
 ShapeFactory - Demo Factory design pattern.
 

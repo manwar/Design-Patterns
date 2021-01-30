@@ -4,7 +4,7 @@ $ShapeMaker::VERSION = '0.01';
 
 =head1 NAME
 
-ShapeMaker- Demo Facade design pattern.
+ShapeMaker - Demo Facade design pattern.
 
 =cut
 

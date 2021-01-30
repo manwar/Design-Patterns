@@ -4,16 +4,16 @@ Design Patterns
 2. Abstract Factory
 3. Decorator
 4. Facade
+5. Singleton
 
 TODO:
 
- 1. Singleton
- 2. Builder
- 3. Prototype
- 4. Adapter
- 5. Bridge
- 6. Filter
- 7. Composite
- 8. Iterator
- 9. Observer
-10. State
+1. Builder
+2. Prototype
+3. Adapter
+4. Bridge
+5. Filter
+6. Composite
+7. Iterator
+8. Observer
+9. State

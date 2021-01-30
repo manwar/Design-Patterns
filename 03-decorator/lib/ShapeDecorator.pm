@@ -2,7 +2,7 @@ package ShapeDecorator;
 
 $ShapeDecorator::VERSION = '0.01';
 
-=head1
+=head1 NAME
 
 ShapeDecorator - Demo Decorator design pattern.
 
