@@ -4,11 +4,7 @@ use strict;
 use warnings;
 
 use Test::More;
-
 use ShapeFactory;
-use Shape::Circle;
-#use Shape::Square;
-#use Shape::Rectangle;
 
 # get shape factory
 my $shapeFactory = ShapeFactory->new;

@@ -2,6 +2,7 @@ Design Patterns
 
 1. Factory
 2. Abstract Factory
+3. Decorator
 
 TODO:
 
@@ -12,8 +13,7 @@ TODO:
  5. Bridge
  6. Filter
  7. Composite
- 8. Decorator
- 9. Facade
-10. Iterator
-11. Observer
-12. State
+ 8. Facade
+ 9. Iterator
+10. Observer
+11. State
