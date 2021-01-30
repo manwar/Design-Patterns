@@ -1,12 +1,15 @@
-Factory
+Decorator
 
-In Factory  pattern, we  create  object without exposing the creation
-logic to  the client and refer to newly created object using a common
-interface.
+Decorator pattern allows user to add new functionality to an existing
+object without altering its structure. This pattern creates decorator
+class which wraps the original class and provides more  functionality
+keeping class methods signature intact.
 
-Implementation
+IMPLEMENTATION
 
-Interface: Shape
+Interface:
+
+Shape
 
 Concrete class implementing interface Shape:
 
@@ -14,4 +17,10 @@ Shape::Circle
 Shape::Square
 Shape::Rectangle
 
-In the end factory generator ShapeFactory::getShape().
+Abstract class implementing interface Shape:
+
+ShapeDecorator
+
+Concrete class extending Shape::Decorator
+
+ShapeDecorator::RedShapeDecorator

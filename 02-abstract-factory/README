@@ -10,9 +10,11 @@ a factory  of  related  objects  without  explicitly specifying their
 classes.  Each  generated  factory  can  give  the objects as per the
 Factory pattern.
 
-Implementation
+IMPLEMENTATION
 
-Interface: Shape
+Interface:
+
+Shape
 
 Concrete class implementing interface Shape:
 
@@ -24,6 +26,9 @@ Shape::RoundedRectangle
 Abstract class:
 
 AbstractFactory
+
+Concrete class extending AbstractFactory:
+
 AbstractFactory::ShapeFactory extends AbstractFactory
 AbstractFactory::RoundedShapeFactory extends AbstractFactory
 
