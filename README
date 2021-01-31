@@ -5,6 +5,7 @@ Design Patterns
 3. Decorator
 4. Facade
 5. Singleton
+6. Composite
 
 TODO:
 
@@ -13,7 +14,6 @@ TODO:
 3. Adapter
 4. Bridge
 5. Filter
-6. Composite
-7. Iterator
-8. Observer
-9. State
+6. Iterator
+7. Observer
+8. State
