@@ -6,14 +6,14 @@ Design Patterns
 4. Facade
 5. Singleton
 6. Composite
+7. Builder
 
 TODO:
 
-1. Builder
-2. Prototype
-3. Adapter
-4. Bridge
-5. Filter
-6. Iterator
-7. Observer
-8. State
+1. Prototype
+2. Adapter
+3. Bridge
+4. Filter
+5. Iterator
+6. Observer
+7. State

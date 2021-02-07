@@ -1,0 +1,30 @@
+Builder
+
+Builder pattern builds  complex object using simple objects and using
+a step by step approach.
+
+IMPLEMENTATION
+
+Interfaces:
+
+Item
+Packing
+
+Concrete classes implementing interface Packing:
+
+Packing::Bottle
+Packing::Wrapper
+
+Abstract classes implementing interface Item:
+
+Item::Burger
+Item::ColdDrink
+
+Concrete classes extending Item::Burger and Item::ColdDrink:
+
+Item::Burger::VegBurger
+Item::Burger::ChickenBurger
+Item::ColdDrink::Coke
+Item::ColdDrink::Pepsi
+
+In the end we have Meal and MealBuilder to builds the complex object.
