@@ -1,0 +1,11 @@
+README
+MANIFEST
+Makefile.PL
+lib/StatePattern.pm
+lib/Context.pm
+lib/State.pm
+lib/State/StartState.pm
+lib/State/StopState.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t

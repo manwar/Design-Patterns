@@ -7,6 +7,7 @@ Design Patterns
 5. Singleton
 6. Composite
 7. Builder
+8. State
 
 TODO:
 
@@ -16,4 +17,3 @@ TODO:
 4. Filter
 5. Iterator
 6. Observer
-7. State

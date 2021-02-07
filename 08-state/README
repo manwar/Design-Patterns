@@ -1,0 +1,16 @@
+State
+
+In State pattern a class behavior changes based on its state.
+
+IMPLEMENTATION
+
+Interface:
+
+State
+
+Concrete classes implementing interface State:
+
+State::StartState
+State::StopState
+
+In the end Context class and StatePattern class to demo the pattern.
