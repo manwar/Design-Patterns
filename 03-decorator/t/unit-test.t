@@ -6,24 +6,31 @@ use warnings;
 use Test::More;
 
 use Shape::Circle;
-use Shape::Square;
-use Shape::Rectangle;
-use ShapeDecorator::RedShapeDecorator;
+use ShapeDecorator::Red;
+use ShapeDecorator::Filled;
 
-my $circle       = Shape::Circle->new;
-my $redCircle    = RedShapeDecorator->new({ shape => Shape::Circle->new });
+my $redCircle    = ShapeDecorator::Red->new({ shape => Shape::Circle->new });
+my $filledCircle = ShapeDecorator::Filled->new({ shape => Shape::Circle->new });
+my $redFilledCircle = ShapeDecorator::Filled->new({
+    shape => ShapeDecorator::Red->new({
+        shape => Shape::Circle->new
+    })
+});
+my $filledRedCircle = ShapeDecorator::Red->new({
+    shape => ShapeDecorator::Filled->new({
+        shape => Shape::Circle->new
+    })
+});
 
-is($circle->draw,       'Inside Shape::Circle::draw()');
-is($redCircle->draw,    'Shape::Circle Border Color: Red');
+is($redCircle->draw,       'A circle with a red border');
+is($filledCircle->draw,    'A circle filled');
+is($redFilledCircle->draw, 'A circle with a red border filled');
+is($filledRedCircle->draw, 'A circle filled with a red border');
 
-my $square       = Shape::Square->new;
-my $redSquare    = RedShapeDecorator->new({ shape => Shape::Square->new });
-is($square->draw,       'Inside Shape::Square::draw()');
-is($redSquare->draw,    'Shape::Square Border Color: Red');
-
-my $rectangle    = Shape::Rectangle->new;
-my $redRectangle = RedShapeDecorator->new({ shape => Shape::Rectangle->new });
-is($rectangle->draw,    'Inside Shape::Rectangle::draw()');
-is($redRectangle->draw, 'Shape::Rectangle Border Color: Red');
+{   package MyClass;
+    use Moo;
+}
+ok ! eval { ShapeDecorator::Red->new({ shape => MyClass->new }) };
+like $@, qr/Invalid shape/;
 
 done_testing();

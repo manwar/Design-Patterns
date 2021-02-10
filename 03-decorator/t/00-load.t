@@ -2,20 +2,18 @@
 
 use strict;
 use warnings;
-use Test::More tests => 6;
+use Test::More tests => 5;
 
 BEGIN {
     use_ok('ShapeDecorator')
         || print "Bail out!\n";
-    use_ok('ShapeDecorator::RedShapeDecorator')
+    use_ok('ShapeDecorator::Red')
+        || print "Bail out!\n";
+    use_ok('ShapeDecorator::Filled')
         || print "Bail out!\n";
     use_ok('Shape')
         || print "Bail out!\n";
     use_ok('Shape::Circle')
-        || print "Bail out!\n";
-    use_ok('Shape::Square')
-        || print "Bail out!\n";
-    use_ok('Shape::Rectangle')
         || print "Bail out!\n";
 }
 
