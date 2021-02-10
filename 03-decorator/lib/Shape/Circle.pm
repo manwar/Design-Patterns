@@ -6,7 +6,7 @@ use Moo;
 with 'Shape';
 
 sub draw {
-    return "Inside Shape::Circle::draw()";
+    return "A circle"
 }
 
 1;
