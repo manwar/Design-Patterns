@@ -11,16 +11,15 @@ Interface:
 
 1. Shape
 
-Concrete classes implementing interface Shape:
+Concrete class implementing interface Shape:
 
 1. Shape::Circle
-2. Shape::Square
-3. Shape::Rectangle
 
 Abstract class implementing interface Shape:
 
 1. ShapeDecorator
 
-Concrete class extending Shape::Decorator
+Concrete classes extending ShapeDecorator
 
-1. ShapeDecorator::RedShapeDecorator
+1. ShapeDecorator::Red
+2. ShapeDecorator::Filled
