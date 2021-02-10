@@ -21,4 +21,12 @@ is($shape2->draw(), 'Inside Shape::Square::draw()');
 my $shape3 = $shapeFactory->getShape('RECTANGLE');
 is($shape3->draw(), 'Inside Shape::Rectangle::draw()');
 
+# the shape can be specified in different case
+my $shape4 = $shapeFactory->getShape('rectangle');
+is($shape4->draw(), 'Inside Shape::Rectangle::draw()');
+
+# Unknown shape returns undef
+my $no_shape = $shapeFactory->getShape('TRIQUETRA');
+ok(! defined $no_shape);
+
 done_testing();
