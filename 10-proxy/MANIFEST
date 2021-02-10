@@ -1,0 +1,10 @@
+README
+MANIFEST
+Makefile.PL
+lib/ProxyPattern.pm
+lib/Image.pm
+lib/Image/RealImage.pm
+lib/Image/ProxyImage.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t

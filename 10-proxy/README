@@ -1,0 +1,14 @@
+Proxy
+
+In proxy pattern, a class represents functionality of another class.
+
+IMPLEMENTATION
+
+Interface:
+
+Image
+
+Concrete classes implementing interface Image:
+
+Image::RealImage
+Image::ProxyImage
