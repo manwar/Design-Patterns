@@ -1,5 +1,15 @@
 Design Patterns
 
+Playing with  Design Patterns using  Modern Perl. This is not  the first
+time anyone has done it and definitely not the last.
+
+It is an honest attempt to show the power of Modern Perl. If you look at
+the individual implementation, you will appreciate it does not take much
+to get the job done.
+
+To keep it lightweight, I am using Moo for the class definition. This is
+not the complete list. I will add more as I process one by one.
+
 1. Factory
 2. Abstract Factory
 3. Decorator
@@ -8,6 +18,7 @@ Design Patterns
 6. Composite
 7. Builder
 8. State
+9. Observer
 
 TODO:
 
@@ -16,4 +27,27 @@ TODO:
 3. Bridge
 4. Filter
 5. Iterator
-6. Observer
+
+Commonly used Keywords:
+
+Interface:
+
+An interface generally defines the set of  methods that an instance of a
+class that has that interface could respond to.
+
+It defines  a set of methods, the class that implements it "repeats" the
+same methods, but provides definition, so  interface looks like skeleton
+of the class.
+
+Abstract Class:
+
+An abstract class is a class that  contains at least one abstract method.
+An abstract method is  a method  that is declared, but not implemented in
+the code.
+
+Concrete Class:
+
+A concrete class is a class  that  has an implementation  for all of its
+methods. They cannot have any unimplemented methods. It  can also extend
+an abstract class or implement an interface as long as it implements all
+their methods.

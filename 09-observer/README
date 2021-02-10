@@ -1,0 +1,21 @@
+Observer
+
+Observer pattern is used when there  is one-to-many relationship between
+objects such as if one object is modified, its depenedent objects are to
+be notified automatically.
+
+IMPLEMENTATION
+
+Abstract class:
+
+1. Observer
+
+Concrete class:
+
+1. Subject
+
+Concrete class extending Observer:
+
+1. Observer::BinaryObserver
+2. Observer::OctalObserver
+3. Observer::HexaObserver
