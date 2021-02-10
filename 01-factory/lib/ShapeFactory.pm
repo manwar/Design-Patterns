@@ -14,20 +14,18 @@ use Shape::Circle;
 use Shape::Square;
 use Shape::Rectangle;
 
+
+my %dispatch = (
+    CIRCLE    => 'Shape::Circle',
+    SQUARE    => 'Shape::Square',
+    RECTANGLE => 'Shape::Rectangle'
+);
 sub getShape {
     my ($self, $shapeType) = @_;
+    my $class = $dispatch{ uc $shapeType };
+    return unless $class;
 
-    if (uc($shapeType) eq 'CIRCLE') {
-        return Shape::Circle->new;
-    }
-    elsif (uc($shapeType) eq 'SQUARE') {
-        return Shape::Square->new;
-    }
-    elsif (uc($shapeType) eq 'RECTANGLE') {
-        return Shape::Rectangle->new;
-    }
-
-    return;
+    return $class->new;
 }
 
 1;
