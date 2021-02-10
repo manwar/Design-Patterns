@@ -7,14 +7,14 @@ IMPLEMENTATION
 
 Interface:
 
-Shape
+1. Shape
 
-Concrete class implementing interface Shape:
+Concrete classes implementing interface Shape:
 
-Shape::Circle
-Shape::Square
-Shape::Rectangle
+1. Shape::Circle
+2. Shape::Square
+3. Shape::Rectangle
 
 In the end we create Facade class
 
-ShapeMaker
+1. ShapeMaker

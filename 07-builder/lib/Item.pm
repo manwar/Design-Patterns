@@ -4,8 +4,6 @@ package Item;
 
 use Moo::Role;
 
-sub name    {}
-sub packing {}
-sub price   {}
+requires qw(packing price);
 
 1;

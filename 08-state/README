@@ -6,11 +6,11 @@ IMPLEMENTATION
 
 Interface:
 
-State
+1. State
 
 Concrete classes implementing interface State:
 
-State::StartState
-State::StopState
+1. State::StartState
+2. State::StopState
 
 In the end Context class and StatePattern class to demo the pattern.

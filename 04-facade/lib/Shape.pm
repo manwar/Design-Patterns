@@ -4,8 +4,6 @@ package Shape;
 
 use Moo::Role;
 
-sub draw {
-    # just an interface.
-}
+requires 'draw';
 
 1;

@@ -14,22 +14,22 @@ IMPLEMENTATION
 
 Interface:
 
-Shape
+1. Shape
 
-Concrete class implementing interface Shape:
+Concrete classes implementing interface Shape:
 
-Shape::Square
-Shape::RoundedSquare
-Shape::Rectangle
-Shape::RoundedRectangle
+1. Shape::Square
+2. Shape::RoundedSquare
+3. Shape::Rectangle
+4. Shape::RoundedRectangle
 
 Abstract class:
 
-AbstractFactory
+1. AbstractFactory
 
-Concrete class extending AbstractFactory:
+Concrete classes extending AbstractFactory:
 
-AbstractFactory::ShapeFactory extends AbstractFactory
-AbstractFactory::RoundedShapeFactory extends AbstractFactory
+1. AbstractFactory::ShapeFactory extends AbstractFactory
+2. AbstractFactory::RoundedShapeFactory extends AbstractFactory
 
 In the end factory generator FactoryProducer::getFactory().

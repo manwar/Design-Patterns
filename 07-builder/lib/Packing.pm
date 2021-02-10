@@ -4,6 +4,6 @@ package Packing;
 
 use Moo::Role;
 
-sub pack {}
+requires 'pack';
 
 1;

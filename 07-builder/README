@@ -7,24 +7,24 @@ IMPLEMENTATION
 
 Interfaces:
 
-Item
-Packing
+1. Item
+2. Packing
 
 Concrete classes implementing interface Packing:
 
-Packing::Bottle
-Packing::Wrapper
+1. Packing::Bottle
+2. Packing::Wrapper
 
 Abstract classes implementing interface Item:
 
-Item::Burger
-Item::ColdDrink
+1. Item::Burger
+2. Item::ColdDrink
 
 Concrete classes extending Item::Burger and Item::ColdDrink:
 
-Item::Burger::VegBurger
-Item::Burger::ChickenBurger
-Item::ColdDrink::Coke
-Item::ColdDrink::Pepsi
+1. Item::Burger::VegBurger
+2. Item::Burger::ChickenBurger
+3. Item::ColdDrink::Coke
+4. Item::ColdDrink::Pepsi
 
 In the end we have Meal and MealBuilder to builds the complex object.
