@@ -1,9 +1,19 @@
 package Observer;
 
-use Moo;
+use Moo::Role;
 
-has 'subject' => (is => 'rw');
+requires 'update';
+has 'subject' => (is => 'rw', required => 1);
 
-sub update { }
+sub BUILD {
+    my ($self) = @_;
+
+    $self->subject->attach($self);
+}
+
+sub DEMOLISH {
+    my ($self) = @_;
+    $self->subject->detach($self);
+}
 
 1;
