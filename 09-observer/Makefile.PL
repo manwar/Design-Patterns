@@ -18,7 +18,8 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'Moo' => '2.000000',
+        'Moo'          => '2.000000',
+        'Scalar::Util' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'ObserverPattern-*' },

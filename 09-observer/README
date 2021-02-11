@@ -6,7 +6,7 @@ be notified automatically.
 
 IMPLEMENTATION
 
-Abstract class:
+Interface:
 
 1. Observer
 
@@ -14,7 +14,7 @@ Concrete class:
 
 1. Subject
 
-Concrete class extending Observer:
+Concrete classes implementing Observer:
 
 1. Observer::BinaryObserver
 2. Observer::OctalObserver
