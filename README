@@ -52,3 +52,11 @@ A concrete class is a class  that  has an implementation  for all of its
 methods. They cannot have any unimplemented methods. It  can also extend
 an abstract class or implement an interface as long as it implements all
 their methods.
+
+AUTHOR
+
+Mohammad S Anwar, <mohammad.anwar at yahoo.com>
+
+CONTRIBUTORS
+
+1. E. Choroba
