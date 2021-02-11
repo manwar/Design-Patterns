@@ -1,0 +1,17 @@
+Template
+
+In Template pattern, an abstract class exposes defined template to execute
+its methods. It's subclasses can override the method implementation as per
+need  but  the  invocation is to be in the same way as defined by abstract
+class.
+
+IMPLEMENTATION
+
+Abstract class:
+
+1. Game
+
+Concrete classes extending Game:
+
+1. Game::Cricket
+2. Game::Football
