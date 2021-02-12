@@ -1,0 +1,37 @@
+Revision History
+
+0.12 Fri Feb 12 10:21:06 2021 +0000
+     - Added Filter design patten.
+
+0.11 Thu Feb 11 18:49:29 2021 +0000
+     - Added Template design pattern.
+
+0.10 Wed Feb 10 22:21:23 2021 +0000
+     - Added Proxy design pattern.
+
+0.09 Wed Feb 10 13:50:10 2021 +0000
+     - Added Observer design pattern.
+
+0.08 Sun Feb 7 08:46:44 2021 +0000
+     - Added State design pattern.
+
+0.07 Sun Feb 7 07:28:11 2021 +0000
+     - Added Builder design pattern.
+
+0.06 Sun Jan 31 00:48:40 2021 +0000
+     - Added Composite design pattern.
+
+0.05 Sat Jan 30 21:34:14 2021 +0000
+     - Added Singleton design pattern.
+
+0.04 Sat Jan 30 15:21:17 2021 +0000
+     - Added Facade design pattern.
+
+0.03 Sat Jan 30 13:55:07 2021 +0000
+     - Added Decorator design pattern.
+
+0.02 Fri Jan 29 00:01:05 2021 +0000
+     - Added Factory pattern.
+
+0.01 Thu Jan 28 23:15:53 2021 +0000
+     - Added Abstract Factory.
