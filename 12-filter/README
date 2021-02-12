@@ -1,0 +1,21 @@
+Filter
+
+Filter  pattern  enables  developers to filter a set of objects using
+different criteria and chaining them in decoupled way through logical
+operations.
+
+IMPLEMENTATION
+
+Interface:
+
+1. Criteria
+
+Concrete classes implementing interface Criteria:
+
+1. Criteria::Male
+2. Criteria::Female
+3. Criteria::Single
+4. Criteria::And
+5. Criteria::Or
+
+In the end we create concrete class Person.

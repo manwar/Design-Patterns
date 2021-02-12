@@ -1,0 +1,14 @@
+README
+MANIFEST
+Makefile.PL
+lib/FilterPattern.pm
+lib/Person.pm
+lib/Criteria.pm
+lib/Criteria/Male.pm
+lib/Criteria/Female.pm
+lib/Criteria/Single.pm
+lib/Criteria/And.pm
+lib/Criteria/Or.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t

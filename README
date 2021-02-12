@@ -21,14 +21,14 @@ not the complete list. I will add more as I process one by one.
  9. Observer
 10. Proxy
 11. Template
+12. Filter
 
 TODO:
 
 1. Prototype
 2. Adapter
 3. Bridge
-4. Filter
-5. Iterator
+4. Iterator
 
 Commonly used Keywords:
 
