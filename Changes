@@ -1,5 +1,8 @@
 Revision History
 
+0.13 Sat Feb 13 10:26:41 2021 +0000
+     - Added Bridge design pattern.
+
 0.12 Fri Feb 12 10:21:06 2021 +0000
      - Added Filter design patten.
 
