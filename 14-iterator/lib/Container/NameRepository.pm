@@ -4,12 +4,11 @@ use Iterator::Name;
 use Moo;
 
 has 'names'    => (is => 'ro', required => 1);
-has 'iterator' => (is => 'rw');
-
-sub BUILD {
-    my ($self) = @_;
-
-    $self->iterator(Iterator::Name->new({ names => $self->names }));
-}
+has 'iterator' => (
+    is       => 'ro',
+    lazy     => 1,
+    init_arg => undef,
+    default  => sub { Iterator::Name->new({ names => $_[0]->names }) }
+);
 
 1;
