@@ -1,0 +1,11 @@
+README
+MANIFEST
+Makefile.PL
+lib/IteratorPattern.pm
+lib/Iterator.pm
+lib/Iterator/Name.pm
+lib/Container.pm
+lib/Container/NameRepository.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t

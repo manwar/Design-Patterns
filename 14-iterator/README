@@ -1,0 +1,20 @@
+Iterator
+
+Iterator pattern  is used  to get a way to access the elements of a
+collection object in sequential manner without any need to know its
+underlying representation.
+
+IMPLEMENTATION
+
+Interface:
+
+1. Iterator
+2. Container
+
+Concrete class implementing interface Iterator:
+
+1. Iterator::Name
+
+Concrete class implementing interface Container:
+
+1. Container::NameRepository
