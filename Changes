@@ -1,5 +1,8 @@
 Revision History
 
+0.14 Sun Feb 14 09:18:01 2021 +0000
+     - Added Iterator design pattern.
+
 0.13 Sat Feb 13 10:26:41 2021 +0000
      - Added Bridge design pattern.
 
