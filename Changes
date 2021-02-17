@@ -1,5 +1,8 @@
 Revision History
 
+0.15 Wed Feb 17 23:06:29 2021 +0000
+     - Added Prototype design pattern.
+
 0.14 Sun Feb 14 09:18:01 2021 +0000
      - Added Iterator design pattern.
 
