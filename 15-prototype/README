@@ -1,0 +1,19 @@
+Prototype
+
+Prototype pattern refers  to  creating  duplicate object while keeping the
+performance in mind. This pattern is used when creation of object directly
+is costly.
+
+IMPLEMENTATION
+
+Abstract class extending Clone:
+
+1. Shape
+
+Concrete classes extending Shape:
+
+1. Shape::Circle
+2. Shape::Square
+3. Shape::Rectangle
+
+Finally concrete class ShapeCache.
