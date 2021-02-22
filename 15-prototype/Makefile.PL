@@ -19,7 +19,7 @@ WriteMakefile(
     },
     PREREQ_PM => {
         'Moo'   => '2.000000',
-        'Clone' => 0,
+        'MooX::Clone' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'PrototypePattern-*' },

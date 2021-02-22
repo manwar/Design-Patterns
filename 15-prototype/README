@@ -6,7 +6,7 @@ is costly.
 
 IMPLEMENTATION
 
-Abstract class extending Clone:
+Abstract class providing clone functionality:
 
 1. Shape
 
