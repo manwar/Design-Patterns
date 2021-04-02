@@ -1,5 +1,8 @@
 Revision History
 
+0.16 Fri Apr 2 12:24:49 2021
+     - Added Data Access Object design pattern.
+
 0.15 Wed Feb 17 23:06:29 2021 +0000
      - Added Prototype design pattern.
 
