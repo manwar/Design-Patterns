@@ -1,0 +1,20 @@
+Data Access Object (DAO)
+
+In DAO pattern, we separate low level  data accessing operations from
+high level business services. The main player of DAO design pattern:
+
+1. Data Access Object interface
+2. Data Access Object concrete class
+3. Model Object
+
+IMPLEMENTATION
+
+Interface:
+
+1. StudentDAO
+
+Concrete classe implementing interface StudentDAO:
+
+1. StudentDAOImpl
+
+In the end model Student to complete the cycle.
