@@ -1,6 +1,6 @@
-Design Patterns
+Design Pattern
 
-Playing with  Design Patterns using  Modern Perl. This is not  the first
+Playing with  Design Pattern  using  Modern Perl. This is not  the first
 time anyone has done it and definitely not the last.
 
 It is an honest attempt to show the power of Modern Perl. If you look at
@@ -62,3 +62,4 @@ Mohammad S Anwar, <mohammad.anwar at yahoo.com>
 CONTRIBUTORS
 
 1. E. Choroba
+2. Julien Fiegehenn
