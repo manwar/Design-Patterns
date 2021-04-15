@@ -1,5 +1,8 @@
 Revision History
 
+0.17 Thu Apr 15 15:35:43 2021
+     - Added Adapter design pattern.
+
 0.16 Fri Apr 2 12:24:49 2021
      - Added Data Access Object design pattern.
 
