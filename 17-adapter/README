@@ -1,0 +1,20 @@
+Adapter
+
+Adapter pattern helps to combine two incompatible interfaces.
+
+IMPLEMENTATION
+
+Interfaces:
+
+1. Player::Media
+2. Player::AdvancedMedia
+
+Concrete classes implementing interface Player::AdvancedMedia:
+
+1. Player::AdvancedMedia::VLC
+2. Player::AdvancedMedia::MP4
+
+Concrete classes implementing interface Player::Media:
+
+1. Player::Media::Adapter
+2. Player::Media::Audio

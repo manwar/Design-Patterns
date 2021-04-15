@@ -1,0 +1,13 @@
+README
+MANIFEST
+Makefile.PL
+lib/AdapterPattern.pm
+lib/Player/Media.pm
+lib/Player/Media/Audio.pm
+lib/Player/Media/Adapter.pm
+lib/Player/AdvancedMedia.pm
+lib/Player/AdvancedMedia/MP4.pm
+lib/Player/AdvancedMedia/VLC.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t

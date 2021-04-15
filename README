@@ -7,8 +7,7 @@ It is an honest attempt to show the power of Modern Perl. If you look at
 the individual implementation, you will appreciate it does not take much
 to get the job done.
 
-To keep it lightweight, I am using Moo for the class definition. This is
-not the complete list. I will add more as I process one by one.
+To keep it lightweight, I am using Moo for the class definition.
 
  1. Factory
  2. Abstract Factory
@@ -26,10 +25,7 @@ not the complete list. I will add more as I process one by one.
 14. Iterator
 15. Prototype
 16. Data Access Object (DAO)
-
-TODO:
-
-1. Adapter
+17. Adapter
 
 Commonly used Keywords:
 
