@@ -1,9 +1,7 @@
 ## Design Pattern
 ***
 
-Playing with `Design Pattern` using `Modern Perl`. This is not the first time anyone has done it and definitely not the last.
-
-It is an honest attempt to show the power of `Modern Perl`. If you look at the individual implementation, you will appreciate it does not take much to get the job done.
+Playing with `Design Pattern` using `Modern Perl`. This is not the first time anyone has done it and definitely not the last. It is an honest attempt to show the power of `Modern Perl`. If you look at the individual implementation, you will appreciate it does not take much to get the job done.
 
 To keep it lightweight, I am using [**Moo**](https://metacpan.org/pod/Moo) for the class definition.
 
