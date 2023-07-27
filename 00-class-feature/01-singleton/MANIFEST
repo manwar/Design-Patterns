@@ -1,0 +1,8 @@
+README
+MANIFEST
+Makefile.PL
+lib/Singleton.pm
+lib/SingleObject.pm
+t/00-load.t
+t/unit-test.t
+t/manifest.t
