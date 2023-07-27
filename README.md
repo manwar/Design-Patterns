@@ -9,11 +9,9 @@
 
     To keep it lightweight, I am using Moo for the class definition.
 
-[1. Factory](https://github.com/manwar/Design-Patterns/tree/master/01-factory)
-
-[2. Abstract Factory](https://github.com/manwar/Design-Patterns/tree/master/02-abstract-factory)
-
-[3. Decorator](https://github.com/manwar/Design-Patterns/tree/master/03-decorator)
+  [1. Factory](https://github.com/manwar/Design-Patterns/tree/master/01-factory)
+  [2. Abstract Factory](https://github.com/manwar/Design-Patterns/tree/master/02-abstract-factory)
+  [3. Decorator](https://github.com/manwar/Design-Patterns/tree/master/03-decorator)
 
 4. Facade
  5. Singleton
