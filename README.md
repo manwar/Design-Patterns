@@ -1,27 +1,17 @@
----
-title: "Design Patterns using Modern Perl"
-date: 2023-07-27T00:00:00+00:00
-description: "Prototype showing the power of Modern Perl dealing with Design Patterns."
-type: post
-author: Mohammad S Anwar
-tags: ["Perl"]
----
-
 ## Design Pattern
 ***
 
-    Playing with  Design Pattern  using  Modern Perl. This is not  the first
-    time anyone has done it and definitely not the last.
+Playing with  Design Pattern  using  Modern Perl. This is not  the first time anyone has done it and definitely not the last.
 
-    It is an honest attempt to show the power of Modern Perl. If you look at
-    the individual implementation, you will appreciate it does not take much
-    to get the job done.
+It is an honest attempt to show the power of Modern Perl. If you look at the individual implementation, you will appreciate it does not take much to get the job done.
 
-    To keep it lightweight, I am using Moo for the class definition.
+To keep it lightweight, I am using Moo for the class definition.
 
-### [1. Factory](https://github.com/manwar/Design-Patterns/tree/master/01-factory)
-### [2. Abstract Factory](https://github.com/manwar/Design-Patterns/tree/master/02-abstract-factory)
-### [3. Decorator](https://github.com/manwar/Design-Patterns/tree/master/03-decorator)
+<br>
+
+- [1. Factory](https://github.com/manwar/Design-Patterns/tree/master/01-factory)
+- [2. Abstract Factory](https://github.com/manwar/Design-Patterns/tree/master/02-abstract-factory)
+- [3. Decorator](https://github.com/manwar/Design-Patterns/tree/master/03-decorator)
 
 4. Facade
  5. Singleton
