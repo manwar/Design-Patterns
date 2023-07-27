@@ -57,5 +57,5 @@ Mohammad S Anwar, <mohammad.anwar at yahoo.com>
 ## CONTRIBUTORS
 ***
 
-- 1. E. Choroba
-- 2. Julien Fiegehenn
+- E. Choroba
+- Julien Fiegehenn
