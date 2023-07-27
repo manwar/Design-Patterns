@@ -23,7 +23,7 @@ To keep it lightweight, I am using [**Moo**](https://metacpan.org/pod/Moo) for t
 - [16. Data Access Object (DAO)](https://github.com/manwar/Design-Patterns/tree/master/16-data-access-object)
 - [17. Adapter](https://github.com/manwar/Design-Patterns/tree/master/17-adapter)
 
-With the release of `Perl v5.38` which brings in new experimental feature 'class' to the core, I am trying to re-create the above implementation (with `Moo` family) using the new experimental feature `'class'`. It wouldn't be possible to get everything done yet as we don't have the keyword `'role'` in the core as in `v5.38`.
+With the release of `Perl v5.38` which brings in new experimental feature `'class'` to the core, I am trying to re-create the above implementation (with `Moo` family) using the new experimental feature `'class'`. It wouldn't be possible to get everything done yet as we don't have the keyword `'role'` in the core as in `v5.38`.
 
 - [1. Singleton](https://github.com/manwar/Design-Patterns/tree/master/00-class-feature/01-singleton)
 
