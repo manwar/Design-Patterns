@@ -1,11 +1,11 @@
 ## Design Pattern
 ***
 
-Playing with Design Pattern using Modern Perl. This is not the first time anyone has done it and definitely not the last.
+Playing with `Design Pattern` using `Modern Perl`. This is not the first time anyone has done it and definitely not the last.
 
-It is an honest attempt to show the power of Modern Perl. If you look at the individual implementation, you will appreciate it does not take much to get the job done.
+It is an honest attempt to show the power of `Modern Perl`. If you look at the individual implementation, you will appreciate it does not take much to get the job done.
 
-To keep it lightweight, I am using Moo for the class definition.
+To keep it lightweight, I am using [**Moo**](https://metacpan.org/pod/Moo) for the class definition.
 
 - [1. Factory](https://github.com/manwar/Design-Patterns/tree/master/01-factory)
 - [2. Abstract Factory](https://github.com/manwar/Design-Patterns/tree/master/02-abstract-factory)
@@ -25,7 +25,7 @@ To keep it lightweight, I am using Moo for the class definition.
 - [16. Data Access Object (DAO)](https://github.com/manwar/Design-Patterns/tree/master/16-data-access-object)
 - [17. Adapter](https://github.com/manwar/Design-Patterns/tree/master/17-adapter)
 
-With the release of Perl v5.38 which brings in new experimental feature 'class' to the core, I am trying to re-create the above implementation (with Moo family) using the new experimental feature 'class'. It wouldn't be possible to get everything done yet as we don't have the keyword 'role' in the core as in v5.38.
+With the release of `Perl v5.38` which brings in new experimental feature 'class' to the core, I am trying to re-create the above implementation (with `Moo` family) using the new experimental feature `'class'`. It wouldn't be possible to get everything done yet as we don't have the keyword `'role'` in the core as in `v5.38`.
 
 - [1. Singleton](https://github.com/manwar/Design-Patterns/tree/master/00-class-feature/01-singleton)
 
