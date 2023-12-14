@@ -9,6 +9,5 @@ use experimental 'class';
 
 class SingleObject :isa(Singleton) {
     field $count :param = 0;
-    field $_count  = $count;
-    method counter { ++$_count }
+    method counter { ++$count }
 }
